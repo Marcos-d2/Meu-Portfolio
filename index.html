@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Marcos Oliveira</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Importando a biblioteca Chart.js -->
+</head>
+<body>
+    <header>
+        <h1>Portfólio - Marcos Oliveira</h1>
+        <p>Ciência de Dados | Análise e Desenvolvimento de Sistemas</p>
+    </header>
+    <main>
+        <!-- Painel de métricas e KPIs -->
+        <section class="metrics">
+            <div class="metric-card">
+                <h2>Projetos Completados</h2>
+                <p>15</p>
+            </div>
+            <div class="metric-card">
+                <h2>Certificações</h2>
+                <p>5</p>
+            </div>
+            <div class="metric-card">
+                <h2>Anos de Experiência</h2>
+                <p>2</p>
+            </div>
+        </section>
+
+        <!-- Painel de Gráficos -->
+        <section class="charts">
+            <div class="chart-container">
+                <h3>Distribuição de Competências</h3>
+                <canvas id="skillsChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3>Evolução de Projetos</h3>
+                <canvas id="projectsChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Projetos Detalhados -->
+        <section class="projects">
+            <h2>Principais Projetos</h2>
+            <div class="project-item">
+                <h3>Projeto de Análise de Dados</h3>
+                <p>Descrição: Análise exploratória de dados de vendas, insights de mercado e relatórios gerenciais.</p>
+                <p>Tecnologias: Python, Pandas, Matplotlib</p>
+            </div>
+            <div class="project-item">
+                <h3>Modelo de Machine Learning</h3>
+                <p>Descrição: Construção de um modelo preditivo para prever a rotatividade de funcionários.</p>
+                <p>Tecnologias: Python, Scikit-Learn, Jupyter Notebook</p>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script> <!-- Arquivo JavaScript -->
+</body>
+</html>
